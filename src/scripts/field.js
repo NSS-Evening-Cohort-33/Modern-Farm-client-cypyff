@@ -8,6 +8,6 @@ export const addPlant = (seed) => {
         field.push(seed)
     }
 }
-export const usePlants = () => {
+export  usePlants = () => {
     return structuredClone(field)
 }

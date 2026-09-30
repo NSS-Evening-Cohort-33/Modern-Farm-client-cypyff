@@ -1,5 +1,5 @@
 let field = []
-<<<<<<< HEAD
+<<<<<<< HEADf
 
 =======
 export const addPlant = (seed) => {

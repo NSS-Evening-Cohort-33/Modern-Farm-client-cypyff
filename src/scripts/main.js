@@ -5,8 +5,8 @@ import { plantSeeds } from "./tractor.js"
 
 console.log("Welcome to the main module")
 const yearlyPlan = createPlan()
-plantSeeds(yearlyPlan)
 
+plantSeeds(yearlyPlan)
 
 const plantsInField = usePlants()
 console.log(plantsInField)

@@ -33,4 +33,15 @@ h1,h2,h3,h4,h5,h6 {
 .red {
     background-color: darksalmon;
 }
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+
+.plant {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
 

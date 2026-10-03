@@ -11,4 +11,5 @@ plantSeeds(yearlyPlan)
 
 const plantsInField = usePlants()
 console.log(plantsInField)
-
+const harvestedFood = harvestPlants(plantsInField)
+Catalog(harvestedFood)
